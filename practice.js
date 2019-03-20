@@ -14,8 +14,10 @@
   Then alert your name using dot notation.
 */
 
-let me = {keyName: 'Jeoffrey', age: 29,}
-alert(me.keyName);
+let me = {
+name: 'Jeoffrey', 
+age: 29}
+
 
 
 
@@ -26,7 +28,13 @@ alert(me.keyName);
   Have the values to those keys be your favorite thing in that category.
 */
 
-//Code here
+let favoriteThings = {
+band: 'Coldplay', 
+food:'chinese',
+person:'Batman', 
+book:'Grapes of Wrath', 
+movie: 'Dark knight',
+holiday: 'Thanksgiving'}
 
 
 
@@ -34,7 +42,8 @@ alert(me.keyName);
   After you've made your object, add another key named 'car' with the value being your favorite car and then another key named 'brand' with the value being your favorite brand.
 */
 
-//Code here
+favoriteThings.car = 'S500'
+favoriteThings.brand = 'Mercedes Benz'
 
 
 
@@ -42,7 +51,8 @@ alert(me.keyName);
   Now change the value of the food key in your favoriteThings object to be 'Chicken Nuggets' and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
-//Code here
+favoriteThings.food = 'Chicken Nuggets';
+favoriteThings.book = 'Harry Potter';
 
 
 
@@ -56,7 +66,12 @@ alert(me.keyName);
   Using dot notation, add another key (or property) to your backPack object that is named color, with the value being the color of your backpack. 
 */
 
-//Code here
+let backPack = {}
+let item = 'firstPocket'
+backPack = {
+  item: 'chapstick'
+}
+backPack.color = 'red'
 
 
 
@@ -64,7 +79,7 @@ alert(me.keyName);
   After you do the above, alert your entire backPack object.
 */
 
-//Code here
+alert(backPack);
 
 
 
